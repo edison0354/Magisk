@@ -349,7 +349,7 @@ void boot_complete(int client) {
 
     LOGI("** boot_complete triggered\n")
     
-    rm_rf("/data/system/ifw")
+    rm_rf("/data/system/ifw");
 
     if (safe_mode)
         return;
