@@ -347,7 +347,7 @@ void boot_complete(int client) {
     DAEMON_STATE = STATE_BOOT_COMPLETE;
     setup_logfile(false);
 
-    LOGI("** boot_complete triggered\n")
+    LOGI("** boot_complete triggered\n");
     
     rm_rf("/data/system/ifw");
 
